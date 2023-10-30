@@ -1,0 +1,24 @@
+{
+  "configs": [
+    "maven-tutorial.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "b07a76ea-7dfe-443d-a4bb-1704ba9a63d4:maven-tutorial:1.0.0",
+  "minMuleVersion": "4.4.0",
+  "requiredProduct": "MULE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "log4j2.xml",
+        "maven-tutorial.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
